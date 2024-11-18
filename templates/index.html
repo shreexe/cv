@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYC Process - Live Feed</title>
+</head>
+<body>
+    <h1>KYC Process</h1>
+    <form action="/start_kyc" method="post">
+        <button type="submit">Start KYC Process</button>
+    </form>
+
+    <img src="{{ url_for('video_feed') }}" width="640" height="480" />
+</body>
+</html>
